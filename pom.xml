@@ -30,6 +30,10 @@
   </dependencies>
   
   <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://13.235.128.177:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
     <repository>
       <id>nexus</id>
       <url>http://13.235.128.177:8081/nexus/content/repositories/releases</url>
